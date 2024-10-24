@@ -1,0 +1,28 @@
+Starting up http-server, serving ./
+
+http-server version: 14.1.1
+
+http-server settings: 
+CORS: disabled
+Cache: 3600 seconds
+Connection Timeout: 120 seconds
+Directory Listings: visible
+AutoIndex: visible
+Serve GZIP Files: false
+Serve Brotli Files: false
+Default File Extension: none
+
+Available on:
+  http://127.0.0.1:5000
+  http://10.0.2.15:5000
+  http://192.168.52.196:5000
+Hit CTRL-C to stop the server
+
+[Thu Oct 24 2024 16:03:52 GMT+0530 (India Standard Time)]  "GET /" "Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/115.0"
+(node:78851) [DEP0066] DeprecationWarning: OutgoingMessage.prototype._headers is deprecated
+(Use `node --trace-deprecation ...` to show where the warning was created)
+[Thu Oct 24 2024 16:03:52 GMT+0530 (India Standard Time)]  "GET /favicon.ico" "Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/115.0"
+[Thu Oct 24 2024 16:03:52 GMT+0530 (India Standard Time)]  "GET /favicon.ico" Error (404): "Not found"
+[Thu Oct 24 2024 16:03:55 GMT+0530 (India Standard Time)]  "GET /sounds/crash.mp3" "Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/115.0"
+[Thu Oct 24 2024 16:03:56 GMT+0530 (India Standard Time)]  "GET /sounds/tom-3.mp3" "Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/115.0"
+http-server stopped.
